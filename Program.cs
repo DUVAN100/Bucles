@@ -24,7 +24,7 @@ namespace bucle_while
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("no has introducido un valor numerico valido");
+                    Console.WriteLine("no has agregado un valor numerico valido");
                     minumero = 0;
                 }
                 catch (Exception ex)
